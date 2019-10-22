@@ -31,8 +31,8 @@ def can_be_created_in_a_block(args = __)
   Movie.create do |m|
     m.title: "Home Alone",
     m.release_date: 1990,
-    m.director: "George Roy Hill",
-    m.lead: "Paul Newman",
+    m.director: "Ellis Willis",
+    m.lead: "Susan Hero",
     m.in_theaters: false
   end
 end
